@@ -1,2 +1,0 @@
-# CreditCardFormReact
-Created with CodeSandbox
