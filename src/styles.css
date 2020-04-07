@@ -1,4 +1,13 @@
-.App {
+body {
+  background-color: #ddeefc;
+  overflow: hidden;
+  padding: 1px;
+}
+
+body * {
+  box-sizing: border-box;
   font-family: sans-serif;
-  text-align: center;
+}
+
+.App {
 }
