@@ -10,4 +10,45 @@ body * {
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formBox {
+  width: 90vw;
+  height: 600px;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: -15vh;
+  z-index: 2;
+}
+
+/* 
+Card background-image classes */
+
+.bgImage1 {
+  background-image: url('./images/visa1.jpg');
+}
+.bgImage2 {
+  background-image: url('./images/visa2.jpg');
+}
+.bgImage3 {
+  background-image: url('./images/visa3.jpg');
 }

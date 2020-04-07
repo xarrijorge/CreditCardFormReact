@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Form = () => (
-  <form>
+  <form className="formBox">
     <input type="text" className="cardHolderName" />
     <div className="dateBox">
       <p>
