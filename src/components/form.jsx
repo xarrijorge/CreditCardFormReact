@@ -1,22 +1,30 @@
 import React from 'react'
 
 const Form = () => (
-  <form className="formBox">
-    <input type="text" className="cardHolderName" />
-    <div className="dateBox">
-      <p>
-        <label htmlFor="cardNumber">Card Number</label>
-        <input
-          type="text"
-          className="cardNumber"
-          placeholder="#### #### #### ####"
-        />
-      </p>
-      <input type="text" className="month" />
-      <input type="text" className="year" />
-      <input type="text" className="cvv" />
-    </div>
-  </form>
+  <div className="formBox">
+    <form>
+      <div>
+        <p>Card Number</p>
+        <input type="text" className="cardNumber" />
+      </div>
+      <div>
+        <p>Card Number</p>
+        <input type="text" className="cardNumber" />
+      </div>
+      <div className="metaBox">
+        <div className="dateBox">
+          <p>Expiration Date</p>
+          <input type="text" className="month" placeholder="Month" />
+          <input type="text" className="year" placeholder="Year" />
+        </div>
+        <div>
+          <p>CVV</p>
+          <input type="text" className="cvv" />
+        </div>
+      </div>
+      <button>Submit</button>
+    </form>
+  </div>
 )
 
 export default Form
